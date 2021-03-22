@@ -1,11 +1,21 @@
+// import React from 'react'
+// import Child from './child'
+// let Parent =(props)  => {
+//    return (
+//          <Child myProps={props.myProps}  /> )
+// } ;
+// export default Parent
+
+
+
+
+//---------------------------------------
+
+
 import React from 'react'
 import Child from './child'
-
-
-let Parent =(props)  => {
+let Parent =()  => {
    return (
-         <Child myProps={props.myProps}  /> )
-    
+         <Child /> )
 } ;
-
-export default Parent
+export default Parent;

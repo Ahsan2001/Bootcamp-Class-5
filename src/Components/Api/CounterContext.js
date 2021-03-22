@@ -1,7 +1,7 @@
-import React , {createContext } from 'react';
+// import React , {createContext } from 'react';
 
 
-const counterContext = createContext("sabir");
+// const counterContext = createContext("sabir");
 
-export default counterContext;
+// export default counterContext;
  

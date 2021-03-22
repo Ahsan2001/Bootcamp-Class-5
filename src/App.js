@@ -1,17 +1,17 @@
 import React from 'react'
 import './App.css';
-import counterContext from './Components/Api/CounterContext';
+// import counterContext from './Components/Api/CounterContext';
 import Parent from './Components/parent'
 
 
 
 function App() {
   return (
-    <counterContext.Provider value={"Ahsan"}>
-    <div>
-      <Parent/>
-    </div> 
-    </counterContext.Provider>
+    // <counterContext.Provider value={"Ahsan"}>
+    // <div>
+      <Parent myProps="Ahsan"/>
+    // </div> 
+    // </counterContext.Provider>
   );
 }
 

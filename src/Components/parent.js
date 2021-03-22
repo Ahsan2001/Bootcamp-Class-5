@@ -2,9 +2,9 @@ import React from 'react'
 import Child from './child'
 
 
-let Parent =()  => {
+let Parent =(props)  => {
    return (
-         <Child  /> )
+         <Child myProps={props.myProps}  /> )
     
 } ;
 

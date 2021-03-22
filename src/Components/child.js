@@ -1,13 +1,13 @@
-import React, { useContext } from 'react'
-import counterContext from './Api/CounterContext';
+import React  from 'react'
+// import counterContext from './Api/CounterContext';
 
 
-let Child =()  => {
+let Child =(Props)  => {
 
-    let counterValue = useContext(counterContext) 
+    // let counterValue = useContext(counterContext) 
   
    return (
-       <div>Hello World From Grand Child {counterValue} </div>
+       <div>Hello World From Grand Child {Props.myProps}  </div>
    )
 } ;
 

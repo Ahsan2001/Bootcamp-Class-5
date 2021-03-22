@@ -9,6 +9,7 @@ let [number, setNumber] = useState(10)
      <div>
       <Parent myProps={number}/>
       <button onClick={ () => {setNumber(++number)}}>Click me to add number</button>
+      <h1>Voulme 1</h1>
      </div> 
   );
 }

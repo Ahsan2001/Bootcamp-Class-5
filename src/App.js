@@ -1,17 +1,15 @@
-import React from 'react'
-import './App.css';
-// import counterContext from './Components/Api/CounterContext';
-import Parent from './Components/parent'
-
-
+import React, { useState } from 'react'
+import Parent from './Components/parent';
 
 function App() {
+
+let [number, setNumber] = useState(10)
+
   return (
-    // <counterContext.Provider value={"Ahsan"}>
-    // <div>
-      <Parent myProps="Ahsan"/>
-    // </div> 
-    // </counterContext.Provider>
+     <div>
+      <Parent myProps={number}/>
+      <button onClick={ () => {setNumber(++number)}}>Click me to add number</button>
+     </div> 
   );
 }
 
